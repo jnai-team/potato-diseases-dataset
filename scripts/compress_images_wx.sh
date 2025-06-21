@@ -1,9 +1,6 @@
 #! /bin/bash 
 ###########################################
 # 压缩图片，减少存储空间
-# https://legacy.imagemagick.org/Usage/resize/#resize
-# depend on 
-# Version: ImageMagick 7.1.0-30 Q16-HDRI x64 c8ecfc4:20220416 https://imagemagick.org
 ###########################################
 
 # constants
@@ -31,5 +28,8 @@ for x in `find . -name "微信图片*"`; do
     echo $x
     filename=`basename $x`
     cp $x $TMP_DIR/$filename
+    # https://legacy.imagemagick.org/Usage/resize/#resize
+    # depend on 
+    # Version: ImageMagick 7.1.0-30 Q16-HDRI x64 c8ecfc4:20220416 https://imagemagick.org
     convert $TMP_DIR/$filename -resize 256x256\! $x
 done

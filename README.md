@@ -19,7 +19,7 @@ https://github.com/jnai-team/potato-diseases-dataset
 
 ## Data size
 
-All images are in 256x256 pixels.
+All images are in 256x256 pixels, RGB.
 
 ### Train data
 
