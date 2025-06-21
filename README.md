@@ -5,6 +5,8 @@ https://github.com/jnai-team/potato-diseases-dataset
 
 马铃薯病害数据集：通过叶片识别早疫病、晚疫病和健康叶片。
 
+![alt text](assets/media/1750497602218.png)
+
 ## Data labels
 
 ### Image classification
