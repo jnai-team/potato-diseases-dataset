@@ -7,6 +7,8 @@ https://github.com/jnai-team/potato-diseases-dataset
 
 ## Data labels
 
+### Image classification
+
 每个文件夹一个分类。
 
 | Chinese | English |
@@ -16,6 +18,21 @@ https://github.com/jnai-team/potato-diseases-dataset
 | 健康 | [Potato___healthy](./data/Potato___healthy) | 
 
 > 命名方式和数据集 PlantVillage 中马铃薯叶片名称一致。https://www.kaggle.com/datasets/emmarex/plantdisease 
+
+### Instance segment
+
+使用了 Labelme 标注了实例分割信息。
+每个图片文件，其标注文件是同名的 JSON 文件，比如 `train/Potato___healthy/ff700844-68ad-4e99-8427-58a39c07f817___RS_HL 1860.JPG` 图片的 LabelMe 标注文件是 `train/Potato___healthy/ff700844-68ad-4e99-8427-58a39c07f817___RS_HL 1860.json`。
+
+标签：
+
+| 字段 / Label	| 描述 / Description | 
+| --- | --- |
+| healthleaf	| 健康叶片边缘 / Health Leaf | 
+| zybleaf	| 早疫病边缘 / Early Blight Leaf | 
+| zybspot	| 早疫病病害部分 / Early Blight Lesion Location |
+| wybleaf	| 晚疫病边缘 / Late Blight Leaf |
+| wybspot	| 晚疫病病害部分 / Late Blight Lesion Location | 
 
 ## Data size
 
