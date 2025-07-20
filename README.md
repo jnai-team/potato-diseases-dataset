@@ -83,6 +83,21 @@ Total - 793.
     * PlantVillage
     * [datasets/rizwan123456789](https://www.kaggle.com/datasets/rizwan123456789/potato-disease-leaf-datasetpld)
 
+## Others
+
+### Release after modifing images
+
+Update new label metadata.
+
+```
+./bin/gen-label2num.sh
+```
+
+### Projects using this dataset
+
+* [Potatos Leaf ML Experiments](https://gitee.com/jnai/potatos-leaf-ml-experiments)
+
+
 ## BibTeX Citation
 
 ```
